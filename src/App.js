@@ -7,7 +7,7 @@ import Navbar from './components/navbar';
 import ProductList from './components/productList';
 import Details from './components/details';
 import Cart from './components/cart';
-import Default from './components/Default';
+import NoPage from './components/404';
 import Modal from './components/modal';
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
           <Route exact path="/" component={ProductList}/>
           <Route path="/details" component={Details}/>
           <Route path="/cart" component={Cart}/>
-          <Route component={Default}/>
+          <Route component={NoPage}/>
         </Switch>
         <Modal/>
       </React.Fragment>

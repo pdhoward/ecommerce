@@ -10,7 +10,7 @@ export default function CartTotal({value,history}){
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">SubTotalt</th>
+          <th scope="col">SubTotal</th>
           <th scope="col">Tax</th>
           <th scope="col">Total</th>
         </tr>
@@ -22,7 +22,7 @@ export default function CartTotal({value,history}){
             </td>
             <td>{cartSubTotal}</td>
             <td>{cartTax}</td>
-            <td className="text-success h1"> <i className="fas fa-rupee-sign"></i> {cartTotal}</td>
+            <td className="text-success h2"> <i className="fas fa-dollar-sign"></i> {cartTotal}</td>
           </tr>
           <tr>
             <td colSpan="5">

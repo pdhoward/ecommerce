@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ecommerceProducts, detailProduct} from './data';
+import {ecommerceProducts, detailProduct} from '../database/data';
 const ProductContext= React.createContext();
 
 class ProductProvider extends Component {
@@ -7,7 +7,7 @@ class ProductProvider extends Component {
     products:[],
     detailProduct:detailProduct,
     cart:[],
-    modlaOpen:true,
+    modalOpen:false,
     modalProduct:detailProduct,
     cartSubTotal:0,
     cartTax:0,

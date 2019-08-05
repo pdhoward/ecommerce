@@ -25,7 +25,7 @@ export default class Details extends Component {
                   <hr/>
                     <p className="card-text alert alert-success" role="alert"> Brand : <span className="text-capitalize h5"> {company}</span></p>
                   <hr/>
-                    <p className="card-text alert alert-primary" role="alert"> Price : <span className="text-capitalize h5"> <i className="fas fa-rupee-sign"></i> {price}</span></p>
+                    <p className="card-text alert alert-primary" role="alert"> Price : <span className="text-capitalize h5"> <i className="fas fa-dollar-sign"></i> {price}</span></p>
                   <hr/>
                 <div className="clearfix">
                   <Link to="/cart"> <button className="btn btn-success float-left" onClick={() =>{inCart?console.log('yo'):value.addToCart(id)}}>

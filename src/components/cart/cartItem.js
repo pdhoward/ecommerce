@@ -17,7 +17,7 @@ export default function CartItem({item,value}){
         <td>
          <span onClick={() =>removeItem(id)} className="btn btn-md btn-outline-danger"><i className="fas fa-trash"></i></span>
         </td>
-        <td><i className="fas fa-rupee-sign"></i> {total}</td>
+        <td><i className="fas fa-dollar-sign"></i> {total}</td>
       </tr>
     </React.Fragment>
 
