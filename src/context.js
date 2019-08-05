@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ecommerceProducts,detailProduct} from './data';
+import {ecommerceProducts, detailProduct} from './data';
 const ProductContext= React.createContext();
 
 class ProductProvider extends Component {
@@ -156,9 +156,6 @@ addTotals = () =>{
     }
   })
 }
-
-
-
 
   render(){
     return(

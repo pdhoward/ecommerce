@@ -3,7 +3,6 @@
   src: url('./Google-Sans-Fonts/GoogleSans-Regular.ttf');
 }
 
-
 :root{
   --mainBlue:#2a2e72;
   --lightBlue:#009ffd;
@@ -11,7 +10,6 @@
   --mainDark:#232528;
   --mainYellow:#ffa400;
 }
-
 
 body {
   margin: 0;
@@ -29,7 +27,6 @@ body {
 .text-blue{
   color: var(--mainBlue);
 }
-
 
 .text-bright{
   color: var(--lightBlue);
